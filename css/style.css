@@ -253,9 +253,6 @@ body{
     font-weight: 400;
 	overflow-x: hidden !important;
 	background-size: 20%  20%;
-	background-image: linear-gradient(to right, #ebebeb 1px, transparent 1px);
-	background-image: -moz-linear-gradient(#fff 1px, transparent 1px);
-
 }
 
 

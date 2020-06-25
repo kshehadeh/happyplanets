@@ -122,5 +122,5 @@ jQuery(document).ready(function($) {
 	const num = Math.floor(Math.random() * 6)+1;
 	$('#main-image').attr('src','images/backgrounds/bg-0'+num.toString()+".png");
 
-	
+
 });
