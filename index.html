@@ -659,7 +659,7 @@
 						
 						
 						<!-- Newsletter Form -->
-						<form class="padding-50px" data-netlify="true">
+						<form class="padding-50px" data-netlify="true" name="registration-form" method="POST">
 						
 							<!-- Title -->
 							<h6 class="uk-modal-title text-center margin-bottom-30px text-large text-weight-600 text-gray-extra-dark">Please enter your full name and email address.</h6>
@@ -669,7 +669,7 @@
 							
 								<span class="uk-form-icon" data-uk-icon="icon: user"></span>
 								
-								<input class="uk-input bg-transparent" type="text">
+								<input class="uk-input bg-transparent" type="text" name="name">
 								
 							</div>
 							<!-- End Input -->
@@ -680,7 +680,7 @@
 							
 								<span class="uk-form-icon" data-uk-icon="icon: mail"></span>
 								
-								<input class="uk-input bg-transparent" type="text">
+								<input class="uk-input bg-transparent" type="text" name="email">
 								
 							</div>
 							<!-- End Input -->
@@ -725,8 +725,9 @@
 					<div class="form-group">
 					
 						<!-- Input -->
-						<form data-netlify="true">
-							<input class="form-control form_lastname bg-transparent border-color-gray-extra-light border-1px padding-25px text-gray-extra-dark text-weight-400 width-70 sm-width-100" type="text" name="name"  placeholder="Email" required="required" data-error="Lastname is required.">
+						<form data-netlify="true" name="footer-form" method="POST">
+							<input class="form-control form_lastname bg-transparent border-color-gray-extra-light border-1px padding-25px text-gray-extra-dark text-weight-400 width-70 sm-width-100" 
+							type="text" name="email"  placeholder="Email" required="required" data-error="Email is required.">
 						</form>
 					</div>
 					<!-- End Form Group -->
